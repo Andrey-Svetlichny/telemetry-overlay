@@ -1,0 +1,19 @@
+# TelemetryOverlay config file
+# https://github.com/Andrey-Svetlichny/telemetry-overlay
+log:
+  type: ardupilot # ardupilot / betaflight
+  file: 'c:/Dropbox/Projects/FPV/_Logs/Taranis/Bixler_3-2020-12-25.csv'
+output-dir: 'c:/temp/Video/2020-12-25_Bixler3@/'
+video-files: 
+  # filename: length in sec
+  RC_0000_190601002951.MP4: 505
+  RC_0001_190601003818.MP4: 505
+  RC_0002_190601004643.MP4: 505
+  RC_0003_190601005508.MP4: 505
+  RC_0004_190601010333.MP4: 505
+  RC_0005_190601011158.MP4: 505
+  RC_0006_190601012023.MP4: 440
+output-format: ssa # output subtitle format: ssa / srt
+shift-sec: 53 # shift log from beginning of the first video file
+skip-log-rows: 0
+speed-correction: 1.00 # recorder speed deviation compensation (for Fat Shark 0.9972)
